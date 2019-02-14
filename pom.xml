@@ -12,7 +12,7 @@
     <properties>
 
         <!-- Generic properties -->
-        <java.version>1.8</java.version>
+        <java.version>1.7</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -284,14 +284,6 @@
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
-        </dependency>
-
-        <dependency>
-           <groupId>com.sun</groupId>
-           <artifactId>tools</artifactId>
-           <version>1.6.0</version>
-           <scope>system</scope>
-           <systemPath>/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64/jre/../lib/tools.jar</systemPath>
         </dependency>
     </dependencies>
 
